@@ -1,0 +1,86 @@
+Accuracy of the network on the test images : 60 %
+
+Accuracy of the network for each class :
+Accuracy for class 0 Abyssinian: 0.00%
+Accuracy for class 1 american_bulldog: 60.00%
+Accuracy for class 2 american pit bull terrier: 30.00%
+Accuracy for class 3 basset hound: 87.50%
+Accuracy for class 4 beagle: 17.50%
+Accuracy for class 5 Bengal: 97.50%
+Accuracy for class 6 Birman: 92.50%
+Accuracy for class 7 Bombay: 0.00%
+Accuracy for class 8 boxer: 17.02%
+Accuracy for class 9 British shorthair: 85.00%
+Accuracy for class 10 chihuahua: 22.50%
+Accuracy for class 11 Egyptian_Mau: 2.63%
+Accuracy for class 12 english cocker spaniel: 11.36%
+Accuracy for class 13 english setter: 87.50%
+Accuracy for class 14 german shorthaired: 95.00%
+Accuracy for class 15 great pyrenees: 92.50%
+Accuracy for class 16 havanese: 27.50%
+Accuracy for class 17 japanese chin: 92.50%
+Accuracy for class 18 keeshond: 85.11%
+Accuracy for class 19 leonberger: 100.00%
+Accuracy for class 20 Maine coon: 32.50%
+Accuracy for class 21 miniature pinsher: 100.00%
+Accuracy for class 22 newfoundland: 79.55%
+Accuracy for class 23 Persian: 90.00%
+Accuracy for class 24 pomeranian: 82.50%
+Accuracy for class 25 pug: 90.00%
+Accuracy for class 26 Ragdoll: 20.00%
+Accuracy for class 27 Russian blue: 55.00%
+Accuracy for class 28 saint bernard: 77.50%
+Accuracy for class 29 samoyed: 100.00%
+Accuracy for class 30 scottish terrier: 80.85%
+Accuracy for class 31 shiba inu: 65.00%
+Accuracy for class 32 Siamese: 4.26%
+Accuracy for class 33 Sphynx: 100.00%
+Accuracy for class 34 staffordshire bull terrier: 0.00%
+Accuracy for class 35 wheaten terrier: 100.00%
+Accuracy for class 36 yorkshire terrier: 97.50%
+
+Confusion Matrix :
+
+    0   1   2   3   4   5   6   7   8   9   10 11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36 
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+1   0  24   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3   0   0  
+2   0   0  12   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   6   0   0  
+3   0   1   1  35  26   0   0   0   8   0   0   0  10   4   1   0   0   1   0   0   0   0   0   0   0   0   0   0   5   0   0   0   0   0   0   0   0  
+4   0   0   0   0   7   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+5  22   0   0   2   1  39   0   4   1   2   0  34   0   0   0   0   0   0   0   0  10   0   0   2   1   0   0   0   0   0   1   5   1   0   2   0   1  
+6   0   0   0   0   0   0  37   0   0   0   0   0   0   0   0   0   0   0   3   0   0   0   0   0   0   0  20   0   0   0   0   0  35   0   0   0   0  
+7   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+8   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+9   2   0   0   0   0   1   0  20   0  34   0   1   0   0   0   0   0   0   0   0   2   0   0   1   0   0   3  13   0   0   0   0   1   0   0   0   0  
+10  0   0   0   0   0   0   0   0   1   0   9   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+11  0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+12  0   0   0   0   0   0   0   0   0   0   0   0   5   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+13  0   0   0   0   0   0   0   0   1   0   0   0   9  35   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+14  0   2   8   1   1   0   0   0   8   0   0   0   5   0  38   0   1   0   0   0   0   0   3   0   0   1   0   0   0   0   0   0   0   0  22   0   0  
+15  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  37   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+16  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  11   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+17  0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   1  37   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0  
+18  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  40   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0  
+19  0   0   0   0   0   0   0   0   0   0   0   0   2   0   0   0   0   0   1  40   0   0   6   0   1   0   0   0   2   0   0   0   0   0   0   0   0  
+20  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  13   0   0   1   0   0   1   0   0   0   0   0   0   0   0   0   0  
+21  2   0  13   2   2   0   0   5   8   1  20   0   1   0   0   0   0   0   1   0   0  40   0   0   0   1   0   0   0   0   0   3   1   0  11   0   0  
+22  0   0   0   0   0   0   0   0   0   0   0   0   4   0   0   0   2   0   0   0   0   0  35   0   0   1   0   0   0   0   1   0   0   0   0   0   0  
+23  0   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   1   0  11   0   0  36   0   0   6   0   0   0   0   0   0   0   0   0   0  
+24  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0  33   0   0   0   0   0   0   0   0   0   0   0   0  
+25  0   0   0   0   0   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  36   0   0   0   0   0   0   0   0   0   0   0  
+26  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0  
+27  4   0   0   0   0   0   0   4   0   2   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0  22   0   0   0   0   0   0   0   0   0  
+28  0   0   0   0   1   0   0   0   1   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0  31   0   0   0   0   0   0   0   0  
+29  0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   3   0   0   0   0   0   0   0   0   3   0   0   0   0  40   0   3   0   0   0   0   0  
+30  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0  38   0   0   0   0   0   0  
+31  0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  26   0   0   0   0   0  
+32  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2   0   0   0   0  
+33 16  13   5   0   2   0   0   7   6   1   9   2   0   1   1   0   0   0   0   0   2   0   0   0   0   0   2   5   2   0   2   3   7  40   1   0   0  
+34  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
+35  0   0   0   0   0   0   0   0   0   0   0   0   6   0   0   0  21   1   0   0   0   0   0   0   0   0   0   0   0   0   5   0   0   0   0  40   0  
+36  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0  39  
+
+Classification Errors Confusion Matrix :
+     0   1
+0  249  63 
+1   10 275 
